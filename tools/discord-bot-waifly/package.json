@@ -1,0 +1,13 @@
+{
+  "name": "nyxoperator-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NyxOperator Discord support bot",
+  "main": "discord-autorole.js",
+  "scripts": {
+    "start": "node discord-autorole.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

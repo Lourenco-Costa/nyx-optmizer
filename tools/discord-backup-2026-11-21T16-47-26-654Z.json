@@ -1,0 +1,646 @@
+{
+  "savedAt": "2026-11-21T16:47:26.639Z",
+  "guild": {
+    "id": "1569703986087600238",
+    "name": "NyxOptimizator",
+    "owner_id": "1477015817479655596",
+    "system_channel_id": "1569703986825527302"
+  },
+  "roles": [
+    {
+      "id": "1569703986087600238",
+      "name": "@everyone",
+      "description": null,
+      "permissions": "2248473465835073",
+      "position": 0,
+      "color": 0,
+      "colors": {
+        "primary_color": 0,
+        "secondary_color": null,
+        "tertiary_color": null
+      },
+      "hoist": false,
+      "managed": false,
+      "mentionable": false,
+      "icon": null,
+      "unicode_emoji": null,
+      "flags": 0
+    },
+    {
+      "id": "1569704074423566496",
+      "name": "Beta Tester",
+      "description": null,
+      "permissions": "0",
+      "position": 4,
+      "color": 15277667,
+      "colors": {
+        "primary_color": 15277667,
+        "secondary_color": null,
+        "tertiary_color": null
+      },
+      "hoist": true,
+      "managed": false,
+      "mentionable": false,
+      "icon": null,
+      "unicode_emoji": null,
+      "flags": 0
+    },
+    {
+      "id": "1569708354618527937",
+      "name": "Santos Otimizator",
+      "description": null,
+      "permissions": "8",
+      "position": 1,
+      "color": 0,
+      "colors": {
+        "primary_color": 0,
+        "secondary_color": null,
+        "tertiary_color": null
+      },
+      "hoist": false,
+      "managed": true,
+      "mentionable": false,
+      "icon": null,
+      "unicode_emoji": null,
+      "tags": {
+        "bot_id": "1569702949012250676"
+      },
+      "flags": 0
+    },
+    {
+      "id": "1571226746580246629",
+      "name": "Staff",
+      "description": null,
+      "permissions": "1099511636096",
+      "position": 5,
+      "color": 15105570,
+      "colors": {
+        "primary_color": 15105570,
+        "secondary_color": null,
+        "tertiary_color": null
+      },
+      "hoist": true,
+      "managed": false,
+      "mentionable": false,
+      "icon": null,
+      "unicode_emoji": null,
+      "flags": 0
+    },
+    {
+      "id": "1571226750615294023",
+      "name": "Member",
+      "description": null,
+      "permissions": "0",
+      "position": 3,
+      "color": 3447003,
+      "colors": {
+        "primary_color": 3447003,
+        "secondary_color": null,
+        "tertiary_color": null
+      },
+      "hoist": true,
+      "managed": false,
+      "mentionable": true,
+      "icon": null,
+      "unicode_emoji": null,
+      "flags": 0
+    },
+    {
+      "id": "1571229368779411579",
+      "name": "Free",
+      "description": null,
+      "permissions": "0",
+      "position": 2,
+      "color": 9807270,
+      "colors": {
+        "primary_color": 9807270,
+        "secondary_color": null,
+        "tertiary_color": null
+      },
+      "hoist": false,
+      "managed": false,
+      "mentionable": true,
+      "icon": null,
+      "unicode_emoji": null,
+      "flags": 0
+    },
+    {
+      "id": "1571229371136610547",
+      "name": "Owner",
+      "description": null,
+      "permissions": "8",
+      "position": 6,
+      "color": 15844367,
+      "colors": {
+        "primary_color": 15844367,
+        "secondary_color": null,
+        "tertiary_color": null
+      },
+      "hoist": true,
+      "managed": false,
+      "mentionable": true,
+      "icon": null,
+      "unicode_emoji": null,
+      "flags": 0
+    }
+  ],
+  "channels": [
+    {
+      "id": "1569703986825527297",
+      "type": 4,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "Information",
+      "parent_id": null,
+      "position": 0,
+      "permission_overwrites": []
+    },
+    {
+      "id": "1569703986825527298",
+      "type": 0,
+      "last_message_id": "1571226762543767755",
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "welcome-rules",
+      "parent_id": "1569703986825527297",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 1,
+      "permission_overwrites": [
+        {
+          "id": "1571226746580246629",
+          "type": 0,
+          "allow": "2048",
+          "deny": "0"
+        },
+        {
+          "id": "1569703986087600238",
+          "type": 0,
+          "allow": "66560",
+          "deny": "2048"
+        }
+      ],
+      "nsfw": false
+    },
+    {
+      "id": "1569703986825527299",
+      "type": 0,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "announcements",
+      "parent_id": "1569703986825527297",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 2,
+      "permission_overwrites": [
+        {
+          "id": "1571226746580246629",
+          "type": 0,
+          "allow": "2048",
+          "deny": "0"
+        },
+        {
+          "id": "1569703986087600238",
+          "type": 0,
+          "allow": "66560",
+          "deny": "2048"
+        }
+      ],
+      "nsfw": false
+    },
+    {
+      "id": "1569703986825527300",
+      "type": 0,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "resources",
+      "parent_id": "1569703986825527297",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 3,
+      "permission_overwrites": [
+        {
+          "id": "1571226746580246629",
+          "type": 0,
+          "allow": "2048",
+          "deny": "0"
+        },
+        {
+          "id": "1569703986087600238",
+          "type": 0,
+          "allow": "66560",
+          "deny": "2048"
+        }
+      ],
+      "nsfw": false
+    },
+    {
+      "id": "1569703986825527301",
+      "type": 4,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "Text Channels",
+      "parent_id": null,
+      "position": 4,
+      "permission_overwrites": []
+    },
+    {
+      "id": "1569703986825527302",
+      "type": 0,
+      "last_message_id": "1573400285987086467",
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "general",
+      "parent_id": "1569703986825527301",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 5,
+      "permission_overwrites": [],
+      "nsfw": false
+    },
+    {
+      "id": "1569703986825527303",
+      "type": 0,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "meeting-planning",
+      "parent_id": "1569703986825527301",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 6,
+      "permission_overwrites": [],
+      "nsfw": false
+    },
+    {
+      "id": "1569703987278520432",
+      "type": 0,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "off-topic",
+      "parent_id": "1569703986825527301",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 7,
+      "permission_overwrites": [],
+      "nsfw": false
+    },
+    {
+      "id": "1569703987278520433",
+      "type": 4,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "Voice Channels",
+      "parent_id": null,
+      "position": 8,
+      "permission_overwrites": []
+    },
+    {
+      "id": "1569703987278520434",
+      "type": 2,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "Lounge",
+      "parent_id": "1569703987278520433",
+      "rate_limit_per_user": 0,
+      "bitrate": 64000,
+      "user_limit": 0,
+      "rtc_region": null,
+      "position": 9,
+      "permission_overwrites": [],
+      "nsfw": false,
+      "application_id": null
+    },
+    {
+      "id": "1569703987278520435",
+      "type": 2,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "Meeting Room",
+      "parent_id": "1569703987278520433",
+      "rate_limit_per_user": 0,
+      "bitrate": 64000,
+      "user_limit": 0,
+      "rtc_region": null,
+      "position": 10,
+      "permission_overwrites": [],
+      "nsfw": false,
+      "application_id": null
+    },
+    {
+      "id": "1571226701877219458",
+      "type": 4,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "🚀 NYX",
+      "parent_id": null,
+      "position": 12,
+      "permission_overwrites": []
+    },
+    {
+      "id": "1571226709150404660",
+      "type": 4,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "💬 COMMUNITY",
+      "parent_id": null,
+      "position": 13,
+      "permission_overwrites": []
+    },
+    {
+      "id": "1571226711541162124",
+      "type": 4,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "🛠 SUPPORT",
+      "parent_id": null,
+      "position": 14,
+      "permission_overwrites": []
+    },
+    {
+      "id": "1571226714057605151",
+      "type": 4,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "🧪 BETA",
+      "parent_id": null,
+      "position": 15,
+      "permission_overwrites": [
+        {
+          "id": "1571226746580246629",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1569704074423566496",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1569703986087600238",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1571226716200771785",
+      "type": 4,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "🔊 VOICE",
+      "parent_id": null,
+      "position": 16,
+      "permission_overwrites": []
+    },
+    {
+      "id": "1571226718725996566",
+      "type": 0,
+      "last_message_id": "1571226906706190589",
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "updates",
+      "parent_id": "1571226701877219458",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 8,
+      "permission_overwrites": [
+        {
+          "id": "1571226746580246629",
+          "type": 0,
+          "allow": "2048",
+          "deny": "0"
+        },
+        {
+          "id": "1569703986087600238",
+          "type": 0,
+          "allow": "66560",
+          "deny": "2048"
+        }
+      ],
+      "nsfw": false
+    },
+    {
+      "id": "1571226720957235401",
+      "type": 0,
+      "last_message_id": "1571235242176684222",
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "downloads",
+      "parent_id": "1571226701877219458",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 9,
+      "permission_overwrites": [
+        {
+          "id": "1571226746580246629",
+          "type": 0,
+          "allow": "2048",
+          "deny": "0"
+        },
+        {
+          "id": "1569703986087600238",
+          "type": 0,
+          "allow": "66560",
+          "deny": "2048"
+        }
+      ],
+      "nsfw": false
+    },
+    {
+      "id": "1571226723956166706",
+      "type": 0,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "introductions",
+      "parent_id": "1571226709150404660",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 10,
+      "permission_overwrites": [],
+      "nsfw": false
+    },
+    {
+      "id": "1571226727705743373",
+      "type": 0,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "suggestions",
+      "parent_id": "1571226709150404660",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 11,
+      "permission_overwrites": [],
+      "nsfw": false
+    },
+    {
+      "id": "1571226729824129127",
+      "type": 0,
+      "last_message_id": "1571226768650666046",
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "support",
+      "parent_id": "1571226711541162124",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 12,
+      "permission_overwrites": [],
+      "nsfw": false
+    },
+    {
+      "id": "1571226738003017838",
+      "type": 0,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "bug-reports",
+      "parent_id": "1571226711541162124",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 13,
+      "permission_overwrites": [],
+      "nsfw": false
+    },
+    {
+      "id": "1571226741941207100",
+      "type": 0,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "beta",
+      "parent_id": "1571226714057605151",
+      "rate_limit_per_user": 0,
+      "topic": null,
+      "position": 14,
+      "permission_overwrites": [
+        {
+          "id": "1571226746580246629",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1569704074423566496",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1569703986087600238",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "nsfw": false
+    },
+    {
+      "id": "1571226744474837032",
+      "type": 2,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "Gaming",
+      "parent_id": "1571226716200771785",
+      "rate_limit_per_user": 0,
+      "bitrate": 64000,
+      "user_limit": 0,
+      "rtc_region": null,
+      "position": 11,
+      "permission_overwrites": [],
+      "nsfw": false,
+      "application_id": null
+    },
+    {
+      "id": "1571226903724040242",
+      "type": 2,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "Support Voice",
+      "parent_id": "1571226716200771785",
+      "rate_limit_per_user": 0,
+      "bitrate": 64000,
+      "user_limit": 0,
+      "rtc_region": null,
+      "position": 12,
+      "permission_overwrites": [],
+      "nsfw": false,
+      "application_id": null
+    },
+    {
+      "id": "1571231561766928586",
+      "type": 0,
+      "last_message_id": "1571593672141578410",
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "tickets",
+      "parent_id": "1571226711541162124",
+      "rate_limit_per_user": 0,
+      "topic": "Open a ticket for help or to buy a Nyx key.",
+      "position": 15,
+      "permission_overwrites": [
+        {
+          "id": "1569703986087600238",
+          "type": 0,
+          "allow": "0",
+          "deny": "0"
+        }
+      ],
+      "nsfw": false
+    },
+    {
+      "id": "1571589185905623283",
+      "type": 20,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "server-hub",
+      "parent_id": null,
+      "position": 0,
+      "permission_overwrites": []
+    },
+    {
+      "id": "1571593674926592131",
+      "type": 0,
+      "last_message_id": null,
+      "flags": 0,
+      "guild_id": "1569703986087600238",
+      "name": "ticket-sensei-officialyt",
+      "parent_id": "1571226711541162124",
+      "rate_limit_per_user": 0,
+      "topic": "Buy Key ticket for sensei_officialyt",
+      "position": 16,
+      "permission_overwrites": [
+        {
+          "id": "1477015817479655596",
+          "type": 1,
+          "allow": "101376",
+          "deny": "0"
+        },
+        {
+          "id": "1571226746580246629",
+          "type": 0,
+          "allow": "109568",
+          "deny": "0"
+        },
+        {
+          "id": "1569703986087600238",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "nsfw": false
+    }
+  ]
+}

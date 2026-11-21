@@ -1,0 +1,127 @@
+{
+  "createdAt": "2026-11-21T16:50:11.199Z",
+  "roles": {
+    "novato": {
+      "id": "1573742270900080741",
+      "name": "🐣 Novato",
+      "position": 1
+    },
+    "membro": {
+      "id": "1573742272170692640",
+      "name": "🌱 Membro",
+      "position": 1
+    },
+    "vip": {
+      "id": "1573742273315872778",
+      "name": "💎 VIP",
+      "position": 1
+    },
+    "moderador": {
+      "id": "1573742274356052190",
+      "name": "🔨 Moderador",
+      "position": 1
+    },
+    "admin": {
+      "id": "1573742275970728117",
+      "name": "🛡️ Admin",
+      "position": 1
+    },
+    "owner": {
+      "id": "1573742277225086997",
+      "name": "👑 Owner",
+      "position": 1
+    }
+  },
+  "categories": {
+    "info": {
+      "id": "1573742283294113832",
+      "name": "📢・INFORMAÇÕES"
+    },
+    "community": {
+      "id": "1573742284334301275",
+      "name": "💬・COMUNIDADE"
+    },
+    "voice": {
+      "id": "1573742285617889302",
+      "name": "🔊・VOZ"
+    },
+    "support": {
+      "id": "1573742287324717207",
+      "name": "🎫・SUPORTE"
+    },
+    "staff": {
+      "id": "1573742289983897680",
+      "name": "🛠️・STAFF"
+    }
+  },
+  "channels": {
+    "rules": {
+      "id": "1573742291862945914",
+      "name": "📜・regras"
+    },
+    "announcements": {
+      "id": "1573742293855510578",
+      "name": "📢・anúncios"
+    },
+    "news": {
+      "id": "1573742295550005318",
+      "name": "🎉・novidades"
+    },
+    "welcome": {
+      "id": "1573742297189711903",
+      "name": "👋・boas-vindas"
+    },
+    "verify": {
+      "id": "1573742298687209562",
+      "name": "✅・verificação"
+    },
+    "general": {
+      "id": "1573742299865808926",
+      "name": "💬・geral"
+    },
+    "games": {
+      "id": "1573742304332750884",
+      "name": "🎮・jogos"
+    },
+    "media": {
+      "id": "1573742305876115526",
+      "name": "📸・media"
+    },
+    "bots": {
+      "id": "1573742310888570880",
+      "name": "🤖・bots"
+    },
+    "voice-general": {
+      "id": "1573742312683606177",
+      "name": "🔊・Geral"
+    },
+    "voice-games": {
+      "id": "1573742314436821093",
+      "name": "🔊・Jogos"
+    },
+    "voice-afk": {
+      "id": "1573742315548184856",
+      "name": "🔊・AFK"
+    },
+    "tickets": {
+      "id": "1573742317934870739",
+      "name": "🎫・tickets"
+    },
+    "logs": {
+      "id": "1573742318744240179",
+      "name": "📝・logs"
+    },
+    "staff-chat": {
+      "id": "1573742319910391990",
+      "name": "💬・staff-chat"
+    },
+    "reports": {
+      "id": "1573742321168679003",
+      "name": "🚨・denúncias"
+    }
+  },
+  "failures": [
+    "delete role Owner: DELETE /guilds/1569703986087600238/roles/1571229371136610547 -> 403: Missing Permissions",
+    "ordenar hierarquia completa: PATCH /guilds/1569703986087600238/roles -> 400: Missing Permissions"
+  ]
+}

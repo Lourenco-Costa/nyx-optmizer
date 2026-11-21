@@ -1,0 +1,91 @@
+{
+  "name": "nyx-optmizer",
+  "productName": "Nyx Optmizer",
+  "version": "1.2.1",
+  "description": "Otimizador premium para Windows: performance, latencia e limpeza.",
+  "main": "src/main/main.js",
+  "author": "Santos",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "preview": "node tools/preview-server.js",
+    "icon": "node tools/make-icon.js",
+    "keygen": "node tools/gen-license.js",
+    "release": "node tools/release.js",
+    "dist": "electron-builder --win nsis --x64",
+    "dist:publish": "electron-builder --win nsis --x64 --publish always"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^26.18.0",
+    "rcedit": "^5.0.2"
+  },
+  "build": {
+    "appId": "com.nyx.optmizer",
+    "productName": "Nyx Optmizer",
+    "artifactName": "NyxOptmizerSetup.${ext}",
+    "compression": "normal",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/main/**/*",
+      "src/renderer/**/*",
+      "assets/icon.png",
+      "assets/icon.ico",
+      "assets/icon-256.png",
+      "assets/fonts/**/*",
+      "community.json",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icon.ico"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "Lourenco-Costa",
+        "repo": "nyx-optmizer",
+        "releaseType": "release"
+      }
+    ],
+    "nsis": {
+      "oneClick": false,
+      "displayLanguageSelector": true,
+      "installerLanguages": [
+        "pt_PT",
+        "en_US"
+      ],
+      "multiLanguageInstaller": true,
+      "include": "build/installer.nsh",
+      "perMachine": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Nyx Optmizer",
+      "uninstallDisplayName": "Nyx Optmizer",
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico",
+      "installerHeaderIcon": "assets/icon.ico",
+      "deleteAppDataOnUninstall": false
+    }
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lourenco-Costa/nyx-optmizer.git"
+  }
+}
